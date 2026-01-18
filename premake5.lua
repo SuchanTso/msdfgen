@@ -57,7 +57,7 @@ project "freetype"
 		"freetype/src/winfonts/winfnt.c"
 	}
 
-	includedirs
+	externalincludedirs
 	{
 		"freetype/include"
 	}
@@ -115,7 +115,7 @@ project "msdfgen"
 		"include/**.h"
 	}
 
-	includedirs
+	externalincludedirs
 	{
 		"include",
 		"freetype/include"
